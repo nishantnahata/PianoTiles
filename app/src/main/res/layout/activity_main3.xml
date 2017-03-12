@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="60dp"
+    tools:context="com.example.mygame.pianotiles.Main3Activity"
+    android:orientation="vertical"
+    android:background="@color/Black"
+    android:textAlignment="center"
+    android:layout_centerHorizontal="true">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAlignment="center"
+        android:textColor="@color/White"
+        android:textStyle="bold"
+        android:textSize="89dp"
+        android:text="Piano Tiles"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textStyle="bold"
+        android:textColor="@color/White"
+        android:textSize="28dp"
+        android:textAlignment="center"
+        android:text="(Don't Tap the White Tiles)"/>
+    <Button
+        android:layout_marginTop="40dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/Black"
+        android:textColor="@color/White"
+        android:textAlignment="center"
+        android:textSize="70dp"
+        android:text="PLAY"
+        android:id="@+id/btnplay"
+        />
+</LinearLayout>
